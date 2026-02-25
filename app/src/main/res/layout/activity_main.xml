@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Modi ImageView -->
+    <ImageView
+        android:id="@+id/imageModi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/modi"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <!-- Rahul ImageView (Initially Hidden) -->
+    <ImageView
+        android:id="@+id/imageRahul"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/rahul"
+        android:visibility="gone"
+        android:scaleType="fitCenter"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</RelativeLayout>
